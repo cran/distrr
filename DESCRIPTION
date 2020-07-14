@@ -8,21 +8,22 @@ Description: Tools to estimate and manage empirical distributions,
 Depends: R (>= 3.1.2)
 Imports: magrittr (>= 1.5), dplyr (>= 0.7.4), rlang, utils, stats,
         tidyr (>= 0.7.0)
-Version: 0.0.5
+Version: 0.0.6
 License: GPL-2
 URL: https://gibonet.github.io/distrr,
         https://github.com/gibonet/distrr
 Authors@R: c(
   person("Sandro", "Petrillo Burri", email = "gibo.gaf@gmail.com", role = c("aut", "cre")))
 Maintainer: Sandro Petrillo Burri <gibo.gaf@gmail.com>
-RoxygenNote: 6.1.0
+RoxygenNote: 7.1.1
 Encoding: UTF-8
 LazyData: yes
 Collate: "distrr.R" "invented_data.R" "compat-lazyeval.R"
         "dplyr_new_wrappers.R" "gibutils.R" "jointfuns.R"
         "Fhat_conditional.R" "distrr_funs.R" "dcc_new.R" "wq_df.R"
+        "dcc6_fixed.R"
 NeedsCompilation: no
-Packaged: 2019-01-03 10:28:14 UTC; gibo
+Packaged: 2020-07-14 07:53:48 UTC; gibo
 Author: Sandro Petrillo Burri [aut, cre]
 Repository: CRAN
-Date/Publication: 2019-01-03 10:50:06 UTC
+Date/Publication: 2020-07-14 09:20:07 UTC
